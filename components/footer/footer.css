@@ -1,0 +1,24 @@
+.footer {
+    height: 23vh;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.footer__wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__title {
+    margin-bottom: .8em;
+    font-size: 2.3em;
+    font-weight: 500;
+}
+
+.footer__content{
+    width: 100%;
+    max-width: 640px;
+}

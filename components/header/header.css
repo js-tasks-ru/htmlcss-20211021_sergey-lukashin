@@ -1,0 +1,10 @@
+.header {
+    height: 14vh;
+}
+
+.header__title {
+    padding-top: .8em;
+    font-family: 'Inter', sans-serif;
+    font-size: 3.1em;
+    font-weight: 500;
+}
