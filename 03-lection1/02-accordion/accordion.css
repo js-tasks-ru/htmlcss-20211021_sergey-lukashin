@@ -9,6 +9,7 @@
     padding: 24px 30px;
     border: 1px solid var(--grey-3);
     border-radius: 8px;
+    line-height: 150%;
 }
 
 .accordion__item:last-child {
