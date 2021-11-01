@@ -18,7 +18,7 @@
     margin-bottom: 24px;
 }
 
-.skeleton__header_avatar {
+.skeleton__avatar {
     width: 64px;
     height: 64px;
     margin-right: 16px;
@@ -26,26 +26,26 @@
     background-color: var(--grey-2);
 }
 
-.skeleton__desc_header{
+.skeleton__header-lines{
     width: 100%;
     max-width: 257px;
 }
 
-.skeleton__desc {
+.skeleton__lines-wrapper {
     display: flex;
     flex-direction: column;
 }
 
-.skeleton__desc_item {
+.skeleton__line {
     height: 20px;
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
     margin-bottom: 8px;
 }
 
-.skeleton__desc_item:last-child{
+.skeleton__line:last-child{
     margin-bottom: 0;
 }
 
-.skeleton__desk_item--stump{
+.skeleton__line--stump{
     max-width: 66%;
 }
