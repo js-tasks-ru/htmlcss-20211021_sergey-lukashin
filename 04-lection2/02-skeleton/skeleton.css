@@ -27,9 +27,8 @@
 }
 
 .skeleton__header-lines{
-    width: 100%;
-    max-width: 257px;
-}
+    width: 50%;
+    }
 
 .skeleton__lines-wrapper {
     display: flex;
