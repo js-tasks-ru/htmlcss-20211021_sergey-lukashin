@@ -23,28 +23,28 @@
     pointer-events: none;
 }
 
-.btn__primary {
+.btn_primary {
     background: var(--primary);
 }
 
-.btn__primary:hover {
+.btn_primary:hover {
     background: #2342C0;
 }
 
-.btn__secondary {
+.btn_secondary {
     background: var(--secondary);
 }
 
-.btn__secondary:hover {
+.btn_secondary:hover {
     background: #5028C6;
 }
 
-.btn__alternate {
+.btn_alternate {
     color: var(--grey-4);
     border: 1px solid var(--grey-3);
 }
 
-.btn__alternate:hover {
+.btn_alternate:hover {
     color: var(--black);
     border: 1px solid var(--grey-4)
 }
