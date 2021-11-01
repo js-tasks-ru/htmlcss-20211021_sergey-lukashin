@@ -1,1 +1,30 @@
-/* Стилизация аккордеона */
+.accordion .accordion__title {
+    list-style: none;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 730px;
+    margin: 0 auto 8px;
+    padding: 24px 30px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    line-height: 150%;
+}
+
+.accordion__item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion__item[open] {
+    padding-bottom: 32px;
+}
+
+.accordion__title {
+    color: var(--black);
+}
+
+.accordion__text {
+    margin-bottom: 0;
+    color: var(--grey-4)
+}

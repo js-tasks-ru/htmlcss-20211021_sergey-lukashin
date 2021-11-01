@@ -1,18 +1,51 @@
 <!DOCTYPE html>
 <!-- Страница с аккордеоном -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./accordion.css">
-    </head>
-    <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
-    </body>
+
+<head>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./accordion.css">
+</head>
+
+<body>
+    <details class="accordion">
+        <summary class="accordion__title">
+            Accordion title 1
+        </summary>
+        <p class="accordion__text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+    </details>
+    <details class="accordion">
+        <summary class="accordion__title">
+            Accordion title 2
+        </summary>
+        <p class="accordion__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quod beatae facilis reiciendis
+            perferendis repudiandae optio voluptates.
+        </p>
+    </details>
+    <details class="accordion">
+        <summary class="accordion__title">
+            Accordion title 3
+        </summary>
+        <p class="accordion__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste nihil cupiditate et vitae tenetur
+            voluptatibus debitis! Labore, est. Amet similique aspernatur nemo architecto vel velit maxime, dicta quo
+            sunt.
+        </p>
+    </details>
+
+</body>
+
 </html>
