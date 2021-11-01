@@ -17,27 +17,27 @@
     margin-bottom: 40px;
 }
 
-.histogramm__header_title {
+.histogramm__title {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     opacity: 80%;
 }
 
-.histogram__header_value {
+.histogram__value {
     margin-top: 6px;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
 }
 
-.histogram__header_link {
+.histogram__link {
     color: var(--blue);
     text-decoration: none;
     line-height: 1.5;
 }
 
-.histogram__header_link:hover {
+.histogram__link:hover {
     text-decoration: underline;
 }
 
@@ -48,17 +48,12 @@
     align-items: flex-end;
 }
 
-.histogramm_column {
+.histogramm__column {
     flex: 1 1 auto;
-    margin: 0 .5px;
+    margin-right: 1px;
     background-color: var(--blue);
 }
 
-
-.histogramm_column:first-child {
-    margin-left: 0;
-}
-
-.histogramm_column:last-child {
+.histogramm__column:last-child {
     margin-right: 0;
 }
