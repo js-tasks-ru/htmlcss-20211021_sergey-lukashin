@@ -27,8 +27,8 @@
 }
 
 .skeleton__header-lines{
-    width: 50%;
-    }
+    width: calc(100% - 64px - 16px);
+}
 
 .skeleton__lines-wrapper {
     display: flex;
