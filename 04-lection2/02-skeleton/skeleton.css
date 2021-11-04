@@ -45,6 +45,10 @@
     margin-bottom: 0;
 }
 
+.skeleton__line--more-stump{
+    max-width: 33%;
+}
+
 .skeleton__line--stump{
-    max-width: 66%;
+    max-width: 50%;
 }
