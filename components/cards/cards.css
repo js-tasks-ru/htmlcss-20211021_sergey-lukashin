@@ -1,0 +1,37 @@
+@import '/04-lection2/01-histogram/histogram.css';
+
+.cards {
+    padding: 67px 0 204px;
+}
+
+.cards__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__item {
+    display: flex;
+    padding: 0 25px 30px;
+    max-width: 350px;
+    height: 367px;
+    flex-basis: 33.3333%;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: var(--white);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+}
+
+.card__item:nth-child(-n+3) {
+    margin-bottom: 30px;
+}
+
+.card__item_title {
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1;
+}
