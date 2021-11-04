@@ -1,0 +1,22 @@
+.cards {
+    padding: 67px 0 204px;
+}
+
+.cards__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.cards__item {
+    display: flex;
+    flex: 1 1 calc((100% / 3) - 2rem);
+    padding: 0 25px 30px;
+    height: 367px;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: var(--white);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+}
