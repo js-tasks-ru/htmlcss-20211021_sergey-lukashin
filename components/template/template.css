@@ -1,0 +1,43 @@
+.template {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 2.3rem;
+}
+
+.template__header {
+    height: 80px;
+    padding: 0;
+}
+
+.template__wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 3rem;
+}
+
+.template__inner {
+    padding: 32px 48px;
+    background: var(--white);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+}
+
+.template__title {
+    font-size: 28px;
+    line-height: 1.2;
+    color: var(--grey-4);
+}
+
+.template__footer-title {
+    padding: 65px 0;
+    background: #F9FAFC;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--grey-3);
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+
+}
