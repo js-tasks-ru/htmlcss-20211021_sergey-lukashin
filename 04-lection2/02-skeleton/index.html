@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <!-- Страница со скелетоном -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./skeleton.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./skeleton.css">
+</head>
+
+<body>
+    <div class="skeleton">
+        <div class="skeleton__wrapper">
+            <div class="skeleton__header">
+                <div class="skeleton__avatar"></div>
+                <div class=".skeleton__lines-wrapper skeleton__header-lines">
+                    <div class="skeleton__line skeleton__line--more-stump"></div>
+
+                    <div class="skeleton__line skeleton__line--stump"></div>
+                </div>
+            </div>
+            <div class=".skeleton__lines-wrapper">
+                <div class="skeleton__line"></div>
+                <div class="skeleton__line"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
