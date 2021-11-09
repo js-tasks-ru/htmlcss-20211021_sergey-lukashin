@@ -1,6 +1,10 @@
 .header {
-    padding: 96px 0 77px;
+    padding: 25px 0 70px;
     background-color: var(--white);
+}
+
+.header__top{
+margin-bottom: 40px;
 }
 
 
@@ -9,6 +13,9 @@
     font-size: 50px;
     font-weight: 500;
 }
+
+
+
 
 
 
