@@ -11,9 +11,34 @@
     border-radius: 12px;
 }
 
+
+
+
 .card__title {
     font-size: 21px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     line-height: 1;
+}
+
+
+
+
+@media screen and (max-width: 890px) {
+    .card {
+        flex: 1 1 calc((100% / 2) - 3rem);
+    }
+
+
+    .card__title {
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .card {
+        flex: 1 1 calc((100% / 1) - 3rem);
+    }
 }
