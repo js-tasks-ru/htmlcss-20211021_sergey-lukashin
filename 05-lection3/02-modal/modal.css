@@ -23,7 +23,7 @@
     transform: translate(-50%, -50%);
 }
 
-.icon--close {
+.modal--close {
     position: absolute;
     right: 12px;
     top: 12px;

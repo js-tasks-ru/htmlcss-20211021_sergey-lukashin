@@ -1,6 +1,5 @@
 @import '../css/normalize.css';
 @import '../fonts/fonts.css';
-@import '../images/sprite.svg';
 
 :root {
     --white: #ffffff;
@@ -50,6 +49,6 @@ body {
     width: 24px;
     height: 24px;
     cursor: pointer;
-    display: block;
+    display: inline-block;
 
 }
