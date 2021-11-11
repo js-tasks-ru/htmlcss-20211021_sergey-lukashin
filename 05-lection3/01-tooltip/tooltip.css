@@ -7,11 +7,6 @@
     position: relative;
 }
 
-.tooltip__icon{
-    cursor: pointer;
-    display: block;
-}
-
 .tooltip__hint {
     display: none;
     padding: 13px 20px;

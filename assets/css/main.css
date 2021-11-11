@@ -1,5 +1,6 @@
 @import '../css/normalize.css';
 @import '../fonts/fonts.css';
+@import '../images/sprite.svg';
 
 :root {
     --white: #ffffff;
@@ -43,4 +44,12 @@ body {
     border-top: 1px solid var(--grey-2);
     border-bottom: 1px solid var(--grey-2);
     background-color: #F9FAFC;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    display: block;
+
 }
