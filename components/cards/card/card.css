@@ -11,7 +11,13 @@
     border-radius: 12px;
 }
 
-
+.card__body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
 
 
 .card__title {
@@ -20,6 +26,7 @@
     font-weight: 500;
     line-height: 1;
 }
+
 
 
 
