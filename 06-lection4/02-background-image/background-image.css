@@ -2,12 +2,12 @@
   max-width: 100%;
 }
 
-@media screen and  (min-width: 2560px)  {
+@media screen and  (min-width: 1400px) , (min-width: 2560px)  {
   .image {
     background-image: url('./public/forest_2560.jpg');
   }
 }
-@media screen and  (max-width: 1400px) ,(max-width: 2560px)  {
+@media screen and  (max-width: 1400px)  {
   .image {
     background-image: url('./public/forest_1400.jpg');
   }
