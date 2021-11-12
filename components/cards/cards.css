@@ -7,3 +7,22 @@
     flex-wrap: wrap;
     gap: 2rem;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .cards {
+        padding: 67px 0 150px;}
+
+    .cards__wrapper{
+        row-gap: 3rem;
+    }
+
+}
+@media screen and (max-width: 576px) {
+
+    .cards {
+        padding: 67px 0 100px;}
+
+
+}
