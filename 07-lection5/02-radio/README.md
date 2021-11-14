@@ -2,9 +2,9 @@
 
 figma: [https://www.figma.com/file/LavZmQfQccqyrTMzoSJYNu/CSS-Course?node-id=18342%3A1](https://www.figma.com/file/LavZmQfQccqyrTMzoSJYNu/CSS-Course?node-id=18342%3A1)
 
-Похожий на `checkbox` элемент управления как по внешнему виду, так и по структуре в html.
+Похожий на `radio` элемент управления как по внешнему виду, так и по структуре в html.
 
-Как и для `checkbox`, реализовать правильное отображений состояний:
+Как и для `radio`, реализовать правильное отображений состояний:
 - `:focus`
 - `:checked`
 - `:disabled`
