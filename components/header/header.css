@@ -1,11 +1,16 @@
 .header {
-    padding: 96px 0 77px;
+    padding: 25px 0 70px;
     background-color: var(--white);
+}
+
+.header__top{
+margin-bottom: 40px;
 }
 
 
 .header__title {
     margin: 0;
-    font-size: 50px;
+
+    font-size: calc(28px + 22 * ((100vw - 320px) / (1440 - 320)));
     font-weight: 500;
 }
