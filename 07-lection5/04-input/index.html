@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./input.css" />
+</head>
+
+<body>
+    <label class="input">
+        <div class="input__group">
+            <div class="input__label">label</div>
+            <input class="input__text" type="text" placeholder="Placeholder" />
+        </div>
+    </label>
+
+    <label class="input">
+        <div class="input__group">
+            <div class="input__label">focus</div>
+            <input class="input__text" type="text" placeholder="Placeholder" autofocus />
+        </div>
+    </label>
+
+    <label class="input">
+        <div class="input__group">
+            <div class="input__label">success</div>
+            <div class="input__success">
+                <input class="input__text input__text_success" type="text" placeholder="Placeholder" />
+                <svg class="icon input__icon_success">
+                    <use href="../../assets/images/sprite.svg#success" />
+                </svg>
+            </div>
+        </div>
+    </label>
+
+    <label class="input">
+        <div class="input__group">
+            <div class="input__label">invalid</div>
+            <div class="input__invalid">
+                <input class="input__text input__text_invalid" type="text" placeholder="Placeholder" />
+                <svg class="icon input__icon_invalid">
+                    <use href="../../assets/images/sprite.svg#error" />
+                </svg>
+            </div>
+        </div>
+    </label>
+
+    <label class="input">
+        <div class="input__group">
+            <div class="input__label">disabled</div>
+                <input class="input__text" type="text" disabled />
+        </div>
+    </label>
+</body>
+
 </html>
