@@ -1,0 +1,88 @@
+.toggle {
+  display: inline-block;
+}
+
+.toggle__input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  opacity: 0;
+  outline: none;
+}
+
+.toggle__state {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toggle__control {
+  width: 52px;
+  height: 28px;
+  background: var(--white);
+  border: 1px solid var(--grey-2);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.toggle__input ~ .toggle__state .toggle__control:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: var(--grey-2);
+  border-radius: 50%;
+  position: absolute;
+  left: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__control:before {
+  opacity: 0;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__control:after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: var(--white);
+  border-radius: 50%;
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__control {
+  background: var(--blue);
+  border-color: var(--blue);
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__control {
+  background: var(--grey-2);
+ }
+
+.toggle__input:disabled ~ .toggle__state .toggle__control:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--grey-3);
+  position: absolute;
+  left: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.toggle__input:disabled ~ .toggle__state {
+  cursor: inherit;
+}
+
+.toggle__label {
+  margin-left: 12px;
+  color: var(--grey-4);
+}
