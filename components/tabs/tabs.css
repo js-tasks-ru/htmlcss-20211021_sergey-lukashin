@@ -24,6 +24,7 @@
 }
 
 .tabs__label {
+    cursor: pointer;
     position: relative;
 }
 
