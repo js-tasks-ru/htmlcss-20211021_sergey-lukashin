@@ -1,0 +1,71 @@
+.tabs__radio {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    opacity: 0;
+    outline: none;
+}
+
+.tabs__nav {
+    overflow: hidden;
+}
+
+.tabs__list {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+    overflow-x: scroll;
+}
+
+.tabs__list::-webkit-scrollbar {
+    display: none;
+}
+
+.tabs__label {
+    position: relative;
+}
+
+.tabs__label {
+    color: var(--grey-3);
+    line-height: 1.2;
+    padding-bottom: 7px;
+    white-space: nowrap;
+    transition: color .2s linear;
+}
+
+.tabs__label:hover {
+    color: var(--black);
+}
+
+
+.tabs__label:after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    background: var(--black);
+    top: 100%;
+    transform: scaleX(0);
+    transition: transform .2s linear;
+}
+
+.tabs__label:hover:after {
+    transform: scaleX(1);
+}
+
+#all:checked ~ .tabs__nav .tabs__label[for="all"]:after,
+#atoms:checked~.tabs__nav .tabs__label[for="atoms"]:after,
+#molecules:checked~.tabs__nav .tabs__label[for="molecules"]:after,
+#organism:checked~.tabs__nav .tabs__label[for="organism"]:after{
+    transform: scaleX(1);
+}
+
+#all:checked~.tabs__nav .tabs__label[for="all"],
+#atoms:checked~.tabs__nav .tabs__label[for="atoms"],
+#molecules:checked~.tabs__nav .tabs__label[for="molecules"],
+#organism:checked~.tabs__nav .tabs__label[for="organism"] {
+    color: var(--black);
+}
