@@ -20,12 +20,14 @@
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
+
 }
 
 .input__text:focus {
   outline: none;
   border-color: var(--blue);
   box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
+  transition: border-color .2s linear
 }
 
 .input__text::placeholder {
@@ -54,6 +56,10 @@
   border-color: var(--error);
 }
 
+.input__text_invalid:focus {
+  border-color: var(--error);
+}
+
 .input__icon_invalid {
   fill: var(--error);
   position: absolute;
@@ -64,6 +70,6 @@
 }
 
 
-.input__text:disabled{
-    background: var(--grey-1);
+.input__text:disabled {
+  background: var(--grey-1);
 }
