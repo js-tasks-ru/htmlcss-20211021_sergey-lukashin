@@ -38,29 +38,21 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 1000;
+  transition: .2s linear;
 }
 
-.toggle__input:checked ~ .toggle__state .toggle__control:before {
-  opacity: 0;
-}
 
-.toggle__input:checked ~ .toggle__state .toggle__control:after {
-  content: '';
-  width: 24px;
-  height: 24px;
+.toggle__input:checked ~ .toggle__state .toggle__control:before{
   background: var(--white);
-  border-radius: 50%;
-  position: absolute;
-  right: 2px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1000;
+  left: 25px;
 }
+
 
 .toggle__input:checked ~ .toggle__state .toggle__control {
   background: var(--blue);
   border-color: var(--blue);
-}
+  transition: .3s linear;
+  }
 
 .toggle__input:disabled ~ .toggle__state .toggle__control {
   background: var(--grey-2);
