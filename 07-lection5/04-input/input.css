@@ -20,7 +20,6 @@
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
-
 }
 
 .input__text:focus {
@@ -35,15 +34,11 @@
   font-size: 20px;
 }
 
-.input_success .input__wrapper,
-.input_invalid .iput__wrapper {
+.input__wrapper {
   position: relative;
 }
 
-
-.input_success .input__wrapper .input__control,
-.input_invalid .iput__wrapper .input__control {
-  fill: var(--success);
+.input__control {
   position: absolute;
   z-index: 2;
   right: 18px;
@@ -51,11 +46,13 @@
   transform: translateY(-50%);
 }
 
-
-.input_invalid .iput__wrapper .input__control {
-  fill: var(--error);
+.input__control_success {
+  fill: var(--success);
 }
 
+.input__control_invalid {
+  fill: var(--error);
+}
 
 .input_invalid .input__text {
   border-color: var(--error);
@@ -64,7 +61,6 @@
 .input_invalid .input__text:focus {
   border-color: var(--error);
 }
-
 
 .input__text:disabled {
   background: var(--grey-1);
