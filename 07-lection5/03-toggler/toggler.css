@@ -27,7 +27,7 @@
   position: relative;
 }
 
-.toggle__input ~ .toggle__state .toggle__control:before {
+.toggle__control:before {
   content: '';
   width: 24px;
   height: 24px;
@@ -59,15 +59,8 @@
  }
 
 .toggle__input:disabled ~ .toggle__state .toggle__control:before {
-  content: '';
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: var(--grey-3);
-  position: absolute;
-  left: 2px;
-  top: 50%;
-  transform: translateY(-50%);
+    background: var(--grey-3);
+
 }
 
 .toggle__input:disabled ~ .toggle__state {
