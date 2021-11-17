@@ -35,15 +35,14 @@
   font-size: 20px;
 }
 
-.input__success {
+.input_success .input__wrapper,
+.input_invalid .iput__wrapper {
   position: relative;
 }
 
-.input__invalid {
-  position: relative;
-}
 
-.input__icon_success {
+.input_success .input__wrapper .input__control,
+.input_invalid .iput__wrapper .input__control {
   fill: var(--success);
   position: absolute;
   z-index: 2;
@@ -52,21 +51,18 @@
   transform: translateY(-50%);
 }
 
-.input__text_invalid {
-  border-color: var(--error);
-}
 
-.input__text_invalid:focus {
-  border-color: var(--error);
-}
-
-.input__icon_invalid {
+.input_invalid .iput__wrapper .input__control {
   fill: var(--error);
-  position: absolute;
-  z-index: 2;
-  right: 18px;
-  top: 50%;
-  transform: translateY(-50%);
+}
+
+
+.input_invalid .input__text {
+  border-color: var(--error);
+}
+
+.input_invalid .input__text:focus {
+  border-color: var(--error);
 }
 
 

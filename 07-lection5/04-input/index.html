@@ -9,48 +9,37 @@
 
 <body>
     <label class="input">
-        <div class="input__group">
-            <div class="input__label">label</div>
+        <div class="input__label">label</div>
+        <input class="input__text" type="text" placeholder="Placeholder" />
+    </label>
+    <label class="input">
+        <div class="input__label">focus</div>
+        <input class="input__text" type="text" placeholder="Placeholder" autofocus />
+    </label>
+
+    <label class="input input_success">
+        <div class="input__label">success</div>
+        <div class="input__wrapper">
             <input class="input__text" type="text" placeholder="Placeholder" />
+            <svg class="icon input__control">
+                <use href="../../assets/images/sprite.svg#success" />
+            </svg>
+        </div>
+    </label>
+
+    <label class="input input_invalid">
+        <div class="input__label">invalid</div>
+        <div class="iput__wrapper">
+            <input class="input__text" type="text" placeholder="Placeholder" />
+            <svg class="icon input__control">
+                <use href="../../assets/images/sprite.svg#error" />
+            </svg>
         </div>
     </label>
 
     <label class="input">
-        <div class="input__group">
-            <div class="input__label">focus</div>
-            <input class="input__text" type="text" placeholder="Placeholder" autofocus />
-        </div>
-    </label>
-
-    <label class="input">
-        <div class="input__group">
-            <div class="input__label">success</div>
-            <div class="input__success">
-                <input class="input__text input__text_success" type="text" placeholder="Placeholder" />
-                <svg class="icon input__icon_success">
-                    <use href="../../assets/images/sprite.svg#success" />
-                </svg>
-            </div>
-        </div>
-    </label>
-
-    <label class="input">
-        <div class="input__group">
-            <div class="input__label">invalid</div>
-            <div class="input__invalid">
-                <input class="input__text input__text_invalid" type="text" placeholder="Placeholder" />
-                <svg class="icon input__icon_invalid">
-                    <use href="../../assets/images/sprite.svg#error" />
-                </svg>
-            </div>
-        </div>
-    </label>
-
-    <label class="input">
-        <div class="input__group">
-            <div class="input__label">disabled</div>
-                <input class="input__text" type="text" disabled />
-        </div>
+        <div class="input__label">disabled</div>
+        <input class="input__text" type="text" disabled />
     </label>
 </body>
 
